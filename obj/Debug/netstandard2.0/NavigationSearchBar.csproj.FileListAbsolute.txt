@@ -1,0 +1,12 @@
+/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/bin/Debug/netstandard2.0/NavigationSearchBar.deps.json
+/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/bin/Debug/netstandard2.0/NavigationSearchBar.dll
+/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/bin/Debug/netstandard2.0/NavigationSearchBar.pdb
+/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/bin/Debug/netstandard2.0/Sana.Extensions.dll
+/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/bin/Debug/netstandard2.0/Sana.Extensions.xml
+/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/obj/Debug/netstandard2.0/NavigationSearchBar.csprojAssemblyReference.cache
+/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/obj/Debug/netstandard2.0/NavigationSearchBar.AssemblyInfoInputs.cache
+/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/obj/Debug/netstandard2.0/NavigationSearchBar.AssemblyInfo.cs
+/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/obj/Debug/netstandard2.0/NavigationSearchBar.csproj.CoreCompileInputs.cache
+/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/obj/Debug/netstandard2.0/NavigationSearchBar.csproj.CopyComplete
+/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/obj/Debug/netstandard2.0/NavigationSearchBar.dll
+/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/obj/Debug/netstandard2.0/NavigationSearchBar.pdb

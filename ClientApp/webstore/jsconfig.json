@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "sana/*": [
+        "../../../../SDK/Sana.Commerce.WebApp/ClientApp/src/adk/webstore/*"
+      ]
+    }
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+}

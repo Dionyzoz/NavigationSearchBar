@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <Import Project="$(MSBuildProjectDirectory)/../../Scripts/Addons/msbuild.targets" />
+  <ItemGroup>
+    <Compile Remove="node_modules/**" />
+    <EmbeddedResource Remove="node_modules/**" />
+    <None Remove="node_modules/**" />
+  </ItemGroup>
+  <!-- <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="npm install" />
+  </Target> -->
+</Project>

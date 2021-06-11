@@ -1,0 +1,10 @@
+<SanaPackageInfo>
+  <metadata>
+    <id>NavigationSeachBar</id>
+    <version>1.0.0</version>
+    <title>Navigation Search Bar</title>
+    <authors>Sana Commerce</authors>
+    <type>Extension</type>
+    <minSanaVersion>1.0.0</minSanaVersion>
+  </metadata>
+</SanaPackageInfo>

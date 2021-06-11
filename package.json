@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "dependencies": {
+    "fuse.js": "^6.4.6",
+    "react-autosuggest": "^10.1.0"
+  }
+}

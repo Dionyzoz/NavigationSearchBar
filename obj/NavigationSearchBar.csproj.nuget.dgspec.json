@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/NavigationSearchBar.csproj": {}
+  },
+  "projects": {
+    "/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/NavigationSearchBar.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/NavigationSearchBar.csproj",
+        "projectName": "NavigationSearchBar",
+        "projectPath": "/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/NavigationSearchBar.csproj",
+        "packagesPath": "/home/lucas/.nuget/packages/",
+        "outputPath": "/home/lucas/Coding/Sana/1.0.17/Sources/Addons/NavigationSearchBar/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lucas/Coding/Sana/1.0.17/Sources/NuGet.Config",
+          "/home/lucas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "http://nuget.sana-commerce.com/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Extensions.Primitives": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
