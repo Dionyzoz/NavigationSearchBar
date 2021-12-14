@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react'
 import styles from './NavigationSearchBar.module.scss';
 import Autosuggest from 'react-autosuggest';
-import { searchNavigation } from 'behavior/actions'
+import { requestNavigation } from 'behavior/actions'
 import { connect } from 'react-redux';
 import Fuse from 'fuse.js'
 import { navigateTo } from 'sana/events'
@@ -15,16 +15,15 @@ const renderSuggestion = suggestion => (
 
 
 
-const NavigationBlock = ({items, searchNavigation, navigateTo, model}) => {
+const NavigationBlock = ({items, requestNavigation, navigateTo, model}) => {
   const [value, setValue] = useState("")
   const [suggestions, setSuggestions] = useState([])
   const onChange = (event, {newValue, method}) => {
     setValue(newValue)
   }
 
-  console.log(suggestions)
   const fetchSuggestions = useCallback(({value, reason}) => {
-    items instanceof Fuse && setSuggestions([...items.search(value)])
+    setSuggestions([...items.search(value)])
   }, [items])
 
   const getSuggestionValue = (suggestion) => {
@@ -37,7 +36,7 @@ const NavigationBlock = ({items, searchNavigation, navigateTo, model}) => {
   }
 
   useEffect(() => {
-    searchNavigation(2, "MAIN")
+    requestNavigation(2, "MAIN")
   }, [])
   return (
     items && (
@@ -57,4 +56,4 @@ const NavigationBlock = ({items, searchNavigation, navigateTo, model}) => {
 }
 
 
-export default connect((state) => {return { items: state.searchItems }}, {searchNavigation, navigateTo})(NavigationBlock)
+export default connect((state) => {return { items: state.searchItems }}, {requestNavigation, navigateTo})(NavigationBlock)

@@ -14,7 +14,7 @@ const navItemFragment = `fragment navItem on NavigationItem {
   visible
 }`;
 
-export const getFullNavigation = (depth) => {
+export const getFullNavigationQuery = (depth) => {
   return `query GetFullNavigation($group: NavigationGroupCode!) {
     navigation {
       items (groupCode: $group) {

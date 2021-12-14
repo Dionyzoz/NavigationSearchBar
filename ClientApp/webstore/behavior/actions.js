@@ -1,8 +1,8 @@
-export const SEARCH_NAVIGATION_ITEMS = "SEARCH/NAVIGATION"
+export const REQUEST_NAVIGATION_ITEMS = "REQUEST/NAVIGATION"
 
-export function searchNavigation(depth, group) {
+export function requestNavigation(depth, group) {
   return {
-    type: SEARCH_NAVIGATION_ITEMS,
+    type: REQUEST_NAVIGATION_ITEMS,
     payload: {
       depth,
       group

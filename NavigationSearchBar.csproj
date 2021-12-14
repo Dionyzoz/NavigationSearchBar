@@ -9,7 +9,7 @@
     <EmbeddedResource Remove="node_modules/**" />
     <None Remove="node_modules/**" />
   </ItemGroup>
-  <!-- <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="npm install" />
-  </Target> -->
+  </Target>
 </Project>
